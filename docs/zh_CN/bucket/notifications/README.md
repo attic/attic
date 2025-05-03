@@ -1064,7 +1064,7 @@ mysql> select * from minio_images;
 
 ### 第一步：确保确保至少满足最低要求
 
-MinIO要求Kafka版本0.10或者0.9.MinIO内部使用了 [Shopify/sarama](https://github.com/Shopify/sarama/) 库，因此需要和该库有同样的版本兼容性。
+MinIO要求Kafka版本0.10或者0.9.MinIO内部使用了 [Shopify/sarama](https://github.com/IBM/sarama/) 库，因此需要和该库有同样的版本兼容性。
 
 ###第二步：集成Kafka到MinIO
 

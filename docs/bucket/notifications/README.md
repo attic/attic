@@ -1112,7 +1112,7 @@ Install Apache Kafka from [here](http://kafka.apache.org/).
 
 ### Step 1: Ensure minimum requirements are met
 
-MinIO requires Kafka version 0.10 or 0.9. Internally MinIO uses the [Shopify/sarama](https://github.com/Shopify/sarama/) library and so has the same version compatibility as provided by this library.
+MinIO requires Kafka version 0.10 or 0.9. Internally MinIO uses the [Shopify/sarama](https://github.com/IBM/sarama/) library and so has the same version compatibility as provided by this library.
 
 ### Step 2: Add Kafka endpoint to MinIO
 
